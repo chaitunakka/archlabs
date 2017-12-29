@@ -1,0 +1,88 @@
+[2017-12-27 22:59:06.969] [exthost1] [info] extension host started
+[2017-12-27 22:59:07.152] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:07.152] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/out/extension
+[2017-12-27 22:59:08.110] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:08.110] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/out/main
+[2017-12-27 22:59:09.399] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:09.399] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2017-12-27 22:59:10.016] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:10.016] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/HookyQR.beautify-1.1.1/extension
+[2017-12-27 22:59:11.190] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:11.190] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/Zignd.html-css-class-completion-1.14.0/out/src/extension
+[2017-12-27 22:59:11.969] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:11.969] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/dbaeumer.vscode-eslint-1.4.3/client/out/extension
+[2017-12-27 22:59:12.160] [exthost1] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:12.160] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/eamodio.gitlens-7.1.0/out/extension
+[2017-12-27 22:59:12.594] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:12.594] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/formulahendry.auto-close-tag-0.5.5/out/src/extension
+[2017-12-27 22:59:12.615] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2017-12-27 22:59:12.615] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/robertohuertasm.vscode-icons-7.19.0/out/src/
+[2017-12-27 22:59:12.791] [exthost1] [info] ExtensionService#_doActivateExtension Pivotal.vscode-boot-java {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 22:59:12.791] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/Pivotal.vscode-boot-java-0.1.2/out/lib/Main
+[2017-12-27 22:59:12.944] [exthost1] [info] ExtensionService#_doActivateExtension georgewfraser.vscode-javac {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 22:59:12.944] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/georgewfraser.vscode-javac-0.0.47/out/lib/Main
+[2017-12-27 22:59:13.024] [exthost1] [info] ExtensionService#_doActivateExtension redhat.java {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 22:59:13.024] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/redhat.java-0.16.0/out/src/extension
+[2017-12-27 22:59:13.192] [exthost1] [info] eager extensions activated
+[2017-12-27 23:00:10.299] [exthost1] [info] extension host started
+[2017-12-27 23:00:10.318] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:10.318] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/out/extension
+[2017-12-27 23:00:10.368] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:10.368] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/out/main
+[2017-12-27 23:00:10.429] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:10.429] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2017-12-27 23:00:10.439] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:10.439] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/HookyQR.beautify-1.1.1/extension
+[2017-12-27 23:00:10.518] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:10.518] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/Zignd.html-css-class-completion-1.15.0/out/src/extension
+[2017-12-27 23:00:10.877] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:10.877] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/dbaeumer.vscode-eslint-1.4.3/client/out/extension
+[2017-12-27 23:00:10.913] [exthost1] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:10.913] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/eamodio.gitlens-7.1.0/out/extension
+[2017-12-27 23:00:11.047] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:11.047] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/formulahendry.auto-close-tag-0.5.5/out/src/extension
+[2017-12-27 23:00:11.048] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:00:11.048] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/robertohuertasm.vscode-icons-7.19.0/out/src/
+[2017-12-27 23:00:11.107] [exthost1] [info] eager extensions activated
+[2017-12-27 23:13:41.364] [exthost1] [info] ExtensionService#_doActivateExtension Pivotal.vscode-boot-java {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 23:13:41.364] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/Pivotal.vscode-boot-java-0.1.2/out/lib/Main
+[2017-12-27 23:13:41.422] [exthost1] [info] ExtensionService#_doActivateExtension georgewfraser.vscode-javac {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 23:13:41.422] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/georgewfraser.vscode-javac-0.0.47/out/lib/Main
+[2017-12-27 23:13:41.483] [exthost1] [info] ExtensionService#_doActivateExtension redhat.java {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 23:13:41.483] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/redhat.java-0.16.0/out/src/extension
+[2017-12-27 23:13:48.537] [exthost1] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 23:13:48.537] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/vscjava.vscode-java-debug-0.5.0/out/src/extension
+[2017-12-27 23:18:05.194] [exthost1] [info] ExtensionService#_doActivateExtension DotJoshJohnson.xml {"startup":false,"activationEvent":"onLanguage:xml"}
+[2017-12-27 23:18:05.194] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/DotJoshJohnson.xml-1.9.2/src/Extension
+[2017-12-27 23:21:48.419] [exthost1] [info] extension host started
+[2017-12-27 23:21:48.469] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:48.469] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/out/extension
+[2017-12-27 23:21:48.632] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:48.634] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/out/main
+[2017-12-27 23:21:48.800] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:48.800] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2017-12-27 23:21:48.818] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:48.818] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/HookyQR.beautify-1.1.1/extension
+[2017-12-27 23:21:48.982] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:48.982] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/Zignd.html-css-class-completion-1.15.0/out/src/extension
+[2017-12-27 23:21:49.586] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:49.586] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/dbaeumer.vscode-eslint-1.4.3/client/out/extension
+[2017-12-27 23:21:49.653] [exthost1] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:49.653] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/eamodio.gitlens-7.1.0/out/extension
+[2017-12-27 23:21:49.862] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:49.862] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/formulahendry.auto-close-tag-0.5.5/out/src/extension
+[2017-12-27 23:21:49.863] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2017-12-27 23:21:49.863] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/robertohuertasm.vscode-icons-7.19.0/out/src/
+[2017-12-27 23:21:49.958] [exthost1] [info] eager extensions activated
+[2017-12-27 23:21:49.960] [exthost1] [info] ExtensionService#_doActivateExtension Pivotal.vscode-boot-java {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 23:21:49.960] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/Pivotal.vscode-boot-java-0.1.2/out/lib/Main
+[2017-12-27 23:21:50.029] [exthost1] [info] ExtensionService#_doActivateExtension georgewfraser.vscode-javac {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 23:21:50.029] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/georgewfraser.vscode-javac-0.0.47/out/lib/Main
+[2017-12-27 23:21:50.074] [exthost1] [info] ExtensionService#_doActivateExtension redhat.java {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 23:21:50.074] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/redhat.java-0.16.0/out/src/extension
+[2017-12-27 23:22:01.274] [exthost1] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-27 23:22:01.274] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/vscjava.vscode-java-debug-0.5.0/out/src/extension
+[2017-12-27 23:22:59.021] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html {"startup":false,"activationEvent":"onLanguage:html"}
+[2017-12-27 23:22:59.021] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/html/client/out/htmlMain
+[2017-12-27 23:22:59.285] [exthost1] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:html"}
+[2017-12-27 23:22:59.285] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/ecmel.vscode-html-css-0.1.8/out/src/extension

@@ -1,0 +1,28 @@
+[2017-12-18 23:34:40.920] [exthost1] [info] extension host started
+[2017-12-18 23:34:40.935] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:40.935] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/out/extension
+[2017-12-18 23:34:41.336] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:41.336] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/out/main
+[2017-12-18 23:34:41.529] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:41.529] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2017-12-18 23:34:41.611] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:41.611] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/HookyQR.beautify-1.1.1/extension
+[2017-12-18 23:34:43.149] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:43.149] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/Zignd.html-css-class-completion-1.14.0/out/src/extension
+[2017-12-18 23:34:44.216] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:44.216] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/dbaeumer.vscode-eslint-1.4.3/client/out/extension
+[2017-12-18 23:34:44.308] [exthost1] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:44.308] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/eamodio.gitlens-6.4.0/out/src/extension
+[2017-12-18 23:34:45.841] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:45.841] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/formulahendry.auto-close-tag-0.5.5/out/src/extension
+[2017-12-18 23:34:45.872] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2017-12-18 23:34:45.872] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/robertohuertasm.vscode-icons-7.19.0/out/src/
+[2017-12-18 23:34:46.220] [exthost1] [info] ExtensionService#_doActivateExtension redhat.java {"startup":true,"activationEvent":"workspaceContains:pom.xml"}
+[2017-12-18 23:34:46.220] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/redhat.java-0.16.0/out/src/extension
+[2017-12-18 23:34:46.422] [exthost1] [info] eager extensions activated
+[2017-12-18 23:34:46.423] [exthost1] [info] ExtensionService#_doActivateExtension georgewfraser.vscode-javac {"startup":false,"activationEvent":"onLanguage:java"}
+[2017-12-18 23:34:46.423] [exthost1] [info] ExtensionService#loadCommonJSModule /home/chaitu/.vscode/extensions/georgewfraser.vscode-javac-0.0.47/out/lib/Main
+[2017-12-18 23:34:46.509] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2017-12-18 23:34:46.509] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/configuration-editing/out/extension
+[2017-12-18 23:34:46.551] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2017-12-18 23:34:46.551] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/json/client/out/jsonMain

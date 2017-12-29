@@ -1,0 +1,553 @@
+2017-12-07	20:33:25	INFO	org.javacs.Main connectToNode	Connecting to 55282
+2017-12-07	20:33:25	INFO	org.javacs.Main connectToNode	Connected to parent using socket on port 55282
+2017-12-07	20:33:25	INFO	org.javacs.Main run	Socket closed
+2017-12-07	20:33:25	INFO	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify	Unsupported notification method: $/setTraceNotification
+2017-12-07	20:33:26	INFO	org.javacs.JavaTextDocumentService doLint	Lint untitled:Untitled-1
+2017-12-07	20:33:26	INFO	org.javacs.JavaLanguageServer createCompiler	Inferred configuration: 
+2017-12-07	20:33:26	INFO	org.javacs.JavaLanguageServer createCompiler		sourcePath:
+2017-12-07	20:33:26	INFO	org.javacs.JavaLanguageServer createCompiler		classPath:
+2017-12-07	20:33:26	INFO	org.javacs.JavaLanguageServer createCompiler		workspaceClassPath:
+2017-12-07	20:33:26	INFO	org.javacs.JavaLanguageServer createCompiler		docPath:
+2017-12-07	20:33:26	INFO	org.javacs.JavacHolder createLogDelegate	Forwarding javac log to /tmp/javac7866210440818227138.log
+2017-12-07	20:33:28	WARNING	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification	Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "untitled:Untitled-1",
+      "languageId": "java",
+      "version": 1,
+      "text": ""
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:165)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:136)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: URI must have a path: untitled:Untitled-1
+	at javax.tools.SimpleJavaFileObject.<init>(SimpleJavaFileObject.java:68)
+	at org.javacs.StringFileObject.<init>(StringFileObject.java:12)
+	at org.javacs.JavacHolder.lambda$findFile$5(JavacHolder.java:283)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavacHolder.findFile(JavacHolder.java:283)
+	at org.javacs.JavacHolder.lambda$doCompile$9(JavacHolder.java:309)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1696)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.javacs.JavacHolder.doCompile(JavacHolder.java:310)
+	at org.javacs.JavacHolder.compileBatch(JavacHolder.java:151)
+	at org.javacs.JavacHolder.compileBatch(JavacHolder.java:146)
+	at org.javacs.JavaTextDocumentService.doLint(JavaTextDocumentService.java:53)
+	at org.javacs.JavaTextDocumentService.didOpen(JavaTextDocumentService.java:317)
+	... 16 more
+
+2017-12-07	20:33:28	INFO	org.javacs.JavaTextDocumentService completion	completion at untitled:Untitled-1 1:3
+2017-12-07	20:33:28	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: URI must have a path: untitled:Untitled-1
+	at javax.tools.SimpleJavaFileObject.<init>(SimpleJavaFileObject.java:68)
+	at org.javacs.StringFileObject.<init>(StringFileObject.java:12)
+	at org.javacs.JavacHolder.lambda$findFile$5(JavacHolder.java:283)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavacHolder.findFile(JavacHolder.java:283)
+	at org.javacs.JavacHolder.compileFocused(JavacHolder.java:49)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:118)
+	... 16 more
+
+2017-12-07	20:33:29	INFO	org.javacs.JavaTextDocumentService completion	completion at untitled:Untitled-1 1:4
+2017-12-07	20:33:29	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: URI must have a path: untitled:Untitled-1
+	at javax.tools.SimpleJavaFileObject.<init>(SimpleJavaFileObject.java:68)
+	at org.javacs.StringFileObject.<init>(StringFileObject.java:12)
+	at org.javacs.JavacHolder.lambda$findFile$5(JavacHolder.java:283)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavacHolder.findFile(JavacHolder.java:283)
+	at org.javacs.JavacHolder.compileFocused(JavacHolder.java:49)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:118)
+	... 16 more
+
+2017-12-07	20:33:29	INFO	org.javacs.JavaTextDocumentService completion	completion at untitled:Untitled-1 1:5
+2017-12-07	20:33:29	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: URI must have a path: untitled:Untitled-1
+	at javax.tools.SimpleJavaFileObject.<init>(SimpleJavaFileObject.java:68)
+	at org.javacs.StringFileObject.<init>(StringFileObject.java:12)
+	at org.javacs.JavacHolder.lambda$findFile$5(JavacHolder.java:283)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavacHolder.findFile(JavacHolder.java:283)
+	at org.javacs.JavacHolder.compileFocused(JavacHolder.java:49)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:118)
+	... 16 more
+
+2017-12-07	20:33:29	INFO	org.javacs.JavaTextDocumentService completion	completion at untitled:Untitled-1 1:6
+2017-12-07	20:33:29	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: URI must have a path: untitled:Untitled-1
+	at javax.tools.SimpleJavaFileObject.<init>(SimpleJavaFileObject.java:68)
+	at org.javacs.StringFileObject.<init>(StringFileObject.java:12)
+	at org.javacs.JavacHolder.lambda$findFile$5(JavacHolder.java:283)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavacHolder.findFile(JavacHolder.java:283)
+	at org.javacs.JavacHolder.compileFocused(JavacHolder.java:49)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:118)
+	... 16 more
+
+2017-12-07	20:33:29	INFO	org.javacs.JavaTextDocumentService completion	completion at untitled:Untitled-1 1:7
+2017-12-07	20:33:29	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: URI must have a path: untitled:Untitled-1
+	at javax.tools.SimpleJavaFileObject.<init>(SimpleJavaFileObject.java:68)
+	at org.javacs.StringFileObject.<init>(StringFileObject.java:12)
+	at org.javacs.JavacHolder.lambda$findFile$5(JavacHolder.java:283)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavacHolder.findFile(JavacHolder.java:283)
+	at org.javacs.JavacHolder.compileFocused(JavacHolder.java:49)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:118)
+	... 16 more
+
+2017-12-07	20:33:32	INFO	org.javacs.JavaTextDocumentService completion	completion at untitled:Untitled-1 1:2
+2017-12-07	20:33:32	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: URI must have a path: untitled:Untitled-1
+	at javax.tools.SimpleJavaFileObject.<init>(SimpleJavaFileObject.java:68)
+	at org.javacs.StringFileObject.<init>(StringFileObject.java:12)
+	at org.javacs.JavacHolder.lambda$findFile$5(JavacHolder.java:283)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavacHolder.findFile(JavacHolder.java:283)
+	at org.javacs.JavacHolder.compileFocused(JavacHolder.java:49)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:118)
+	... 16 more
+
+2017-12-07	20:33:44	INFO	org.javacs.JavaTextDocumentService doLint	Lint file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java
+2017-12-07	20:33:45	WARNING	org.javacs.SymbolIndex lambda$sourcePath$1	Java source file file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java is not in 
+2017-12-07	20:33:46	INFO	org.javacs.JavaTextDocumentService lambda$publishDiagnostics$6	Published 0 errors from file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java
+2017-12-07	20:33:46	WARNING	org.javacs.JavaTextDocumentService didChange	Ignored change with version 2 <= 2
+2017-12-07	20:33:46	INFO	org.javacs.JavaTextDocumentService doLint	Lint file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java
+2017-12-07	20:33:46	WARNING	org.javacs.SymbolIndex lambda$sourcePath$1	Java source file file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java is not in 
+2017-12-07	20:33:46	INFO	org.javacs.JavaLanguageServer createCompiler	Inferred configuration: 
+2017-12-07	20:33:46	INFO	org.javacs.JavaLanguageServer createCompiler		sourcePath:
+2017-12-07	20:33:46	INFO	org.javacs.JavaLanguageServer createCompiler		classPath:
+2017-12-07	20:33:46	INFO	org.javacs.JavaLanguageServer createCompiler		workspaceClassPath:
+2017-12-07	20:33:46	INFO	org.javacs.JavaLanguageServer createCompiler		docPath:
+2017-12-07	20:33:46	INFO	org.javacs.JavacHolder createLogDelegate	Forwarding javac log to /tmp/javac164469290580850431.log
+2017-12-07	20:33:47	INFO	org.javacs.JavaTextDocumentService lambda$publishDiagnostics$6	Published 0 errors from file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java
+2017-12-07	20:33:47	WARNING	org.javacs.JavaTextDocumentService didChange	Ignored change with version 2 <= 2
+2017-12-07	20:33:47	INFO	org.javacs.JavaTextDocumentService doLint	Lint file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java
+2017-12-07	20:33:47	INFO	org.javacs.JavaTextDocumentService lambda$publishDiagnostics$6	Published 0 errors from file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java
+2017-12-07	20:33:47	INFO	org.javacs.JavaTextDocumentService doLint	Lint file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java
+2017-12-07	20:33:47	INFO	org.javacs.JavaTextDocumentService lambda$publishDiagnostics$6	Published 0 errors from file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java
+2017-12-07	20:33:52	WARNING	org.javacs.JavaTextDocumentService didChange	Ignored change with version 3 <= 3
+2017-12-07	20:33:52	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:3
+2017-12-07	20:33:53	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	106 ms	M.java
+2017-12-07	20:33:53	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	32 ms	M.java
+2017-12-07	20:33:53	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at com.sun.tools.javac.model.JavacElements.cast(JavacElements.java:652)
+	at com.sun.tools.javac.model.JavacElements.getPackageOf(JavacElements.java:368)
+	at org.javacs.Completions.packageName(Completions.java:415)
+	at org.javacs.Completions.accessibleSourcePathClasses(Completions.java:407)
+	at org.javacs.Completions.notImportedClasses(Completions.java:385)
+	at org.javacs.Completions.completeIdentifier(Completions.java:136)
+	at org.javacs.Completions.get(Completions.java:83)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.Completions.at(Completions.java:31)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:120)
+	... 16 more
+
+2017-12-07	20:33:53	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:1
+2017-12-07	20:33:53	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:33:53	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	3 ms	M.java
+2017-12-07	20:33:56	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:1
+2017-12-07	20:33:56	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	32 ms	M.java
+2017-12-07	20:33:56	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	32 ms	M.java
+2017-12-07	20:33:59	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:2
+2017-12-07	20:33:59	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:33:59	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	23 ms	M.java
+2017-12-07	20:33:59	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at com.sun.tools.javac.model.JavacElements.cast(JavacElements.java:652)
+	at com.sun.tools.javac.model.JavacElements.getPackageOf(JavacElements.java:368)
+	at org.javacs.Completions.packageName(Completions.java:415)
+	at org.javacs.Completions.accessibleSourcePathClasses(Completions.java:407)
+	at org.javacs.Completions.notImportedClasses(Completions.java:385)
+	at org.javacs.Completions.completeIdentifier(Completions.java:136)
+	at org.javacs.Completions.get(Completions.java:83)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.Completions.at(Completions.java:31)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:120)
+	... 16 more
+
+2017-12-07	20:34:00	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:1
+2017-12-07	20:34:00	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:00	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	10 ms	M.java
+2017-12-07	20:34:02	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:2
+2017-12-07	20:34:02	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:02	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	1 ms	M.java
+2017-12-07	20:34:02	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:53)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:105)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at com.sun.tools.javac.model.JavacElements.cast(JavacElements.java:652)
+	at com.sun.tools.javac.model.JavacElements.getPackageOf(JavacElements.java:368)
+	at org.javacs.Completions.packageName(Completions.java:415)
+	at org.javacs.Completions.accessibleSourcePathClasses(Completions.java:407)
+	at org.javacs.Completions.notImportedClasses(Completions.java:385)
+	at org.javacs.Completions.completeIdentifier(Completions.java:136)
+	at org.javacs.Completions.get(Completions.java:83)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.Completions.at(Completions.java:31)
+	at org.javacs.JavaTextDocumentService.completion(JavaTextDocumentService.java:120)
+	... 16 more
+
+2017-12-07	20:34:03	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:1
+2017-12-07	20:34:03	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:03	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	24 ms	M.java
+2017-12-07	20:34:03	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:04	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:8
+2017-12-07	20:34:04	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:04	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	9 ms	M.java
+2017-12-07	20:34:04	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:04	INFO	org.javacs.JavaTextDocumentService completion	Found 0 items in 23 ms
+2017-12-07	20:34:04	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 1:7
+2017-12-07	20:34:04	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:04	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	17 ms	M.java
+2017-12-07	20:34:04	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:07	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 2:6
+2017-12-07	20:34:07	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:07	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	7 ms	M.java
+2017-12-07	20:34:07	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:07	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 121 ms
+2017-12-07	20:34:08	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 2:7
+2017-12-07	20:34:08	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:08	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	3 ms	M.java
+2017-12-07	20:34:08	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:08	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 50 ms
+2017-12-07	20:34:08	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 2:5
+2017-12-07	20:34:08	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:08	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	2 ms	M.java
+2017-12-07	20:34:08	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:12	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 3:10
+2017-12-07	20:34:12	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	3 ms	M.java
+2017-12-07	20:34:12	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	13 ms	M.java
+2017-12-07	20:34:12	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:12	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 53 ms
+2017-12-07	20:34:13	INFO	org.javacs.Javadocs resolveCompletionItem	Resolve javadoc for com.sun.org.apache.bcel.internal.generic.F2D
+2017-12-07	20:34:13	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 3:11
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	7 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.Javadocs doIndex	Found jar:file:/usr/lib/jvm/java-8-jdk/src.zip!/com/sun/org/apache/bcel/internal/generic/F2D.java for com.sun.org.apache.bcel.internal.generic.F2D
+2017-12-07	20:34:13	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 64 ms
+2017-12-07	20:34:13	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 3:12
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	5 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.JavaLanguageServer onDiagnostic	Loading source file /usr/lib/jvm/java-8-jdk/src.zip(com/sun/org/apache/bcel/internal/generic/F2D.java)...
+2017-12-07	20:34:13	INFO	org.javacs.JavaLanguageServer onDiagnostic	Constructing Javadoc information...
+2017-12-07	20:34:13	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 102 ms
+2017-12-07	20:34:13	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 3:13
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	10 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:13	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 96 ms
+2017-12-07	20:34:14	INFO	org.javacs.Javadocs resolveCompletionItem	Resolve javadoc for java.io.File
+2017-12-07	20:34:14	INFO	org.javacs.Javadocs doIndex	Found jar:file:/usr/lib/jvm/java-8-jdk/src.zip!/java/io/File.java for java.io.File
+2017-12-07	20:34:14	INFO	org.javacs.JavaLanguageServer onDiagnostic	Loading source file /usr/lib/jvm/java-8-jdk/src.zip(java/io/File.java)...
+2017-12-07	20:34:14	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 3:9
+2017-12-07	20:34:14	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:14	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	4 ms	M.java
+2017-12-07	20:34:14	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:14	INFO	org.javacs.JavaLanguageServer onDiagnostic	Constructing Javadoc information...
+2017-12-07	20:34:18	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:9
+2017-12-07	20:34:18	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:18	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	75 ms	M.java
+2017-12-07	20:34:18	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:20	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:15
+2017-12-07	20:34:20	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	9 ms	M.java
+2017-12-07	20:34:20	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	5 ms	M.java
+2017-12-07	20:34:20	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	36 ms	M.java
+2017-12-07	20:34:20	INFO	org.javacs.JavaTextDocumentService completion	Found 0 items in 65 ms
+2017-12-07	20:34:23	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:19
+2017-12-07	20:34:23	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	3 ms	M.java
+2017-12-07	20:34:23	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	7 ms	M.java
+2017-12-07	20:34:23	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:23	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 90 ms
+2017-12-07	20:34:23	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:21
+2017-12-07	20:34:23	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:23	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	5 ms	M.java
+2017-12-07	20:34:23	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:23	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 72 ms
+2017-12-07	20:34:24	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:23
+2017-12-07	20:34:24	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	2 ms	M.java
+2017-12-07	20:34:24	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	17 ms	M.java
+2017-12-07	20:34:24	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:24	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 91 ms
+2017-12-07	20:34:25	INFO	org.javacs.JavaTextDocumentService signatureHelp	signatureHelp at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:27
+2017-12-07	20:34:25	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:25	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	43 ms	M.java
+2017-12-07	20:34:25	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:26	INFO	org.javacs.JavaTextDocumentService signatureHelp	signatureHelp at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:28
+2017-12-07	20:34:26	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:26	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	7 ms	M.java
+2017-12-07	20:34:26	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:28	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:27
+2017-12-07	20:34:28	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:28	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	10 ms	M.java
+2017-12-07	20:34:28	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:28	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:27
+2017-12-07	20:34:28	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:28	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	4 ms	M.java
+2017-12-07	20:34:28	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:29	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 5:29
+2017-12-07	20:34:29	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:29	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	3 ms	M.java
+2017-12-07	20:34:29	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 6:10
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	4 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 57 ms
+2017-12-07	20:34:32	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 6:11
+2017-12-07	20:34:32	INFO	org.javacs.Javadocs resolveCompletionItem	Resolve javadoc for com.sun.org.apache.bcel.internal.generic.F2D
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	3 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	9 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 47 ms
+2017-12-07	20:34:32	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 6:12
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	19 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:32	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 46 ms
+2017-12-07	20:34:33	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 6:13
+2017-12-07	20:34:33	INFO	org.javacs.Javadocs resolveCompletionItem	Resolve javadoc for java.io.File
+2017-12-07	20:34:33	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:33	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	17 ms	M.java
+2017-12-07	20:34:33	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:33	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 56 ms
+2017-12-07	20:34:33	INFO	org.javacs.Javadocs resolveCompletionItem	Resolve javadoc for java.io.File
+2017-12-07	20:34:33	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 6:9
+2017-12-07	20:34:33	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:33	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	3 ms	M.java
+2017-12-07	20:34:33	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:34	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 6:14
+2017-12-07	20:34:34	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:34	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	4 ms	M.java
+2017-12-07	20:34:34	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:34	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 36 ms
+2017-12-07	20:34:35	INFO	org.javacs.Javadocs resolveCompletionItem	Resolve javadoc for javax.annotation.processing.Filer
+2017-12-07	20:34:35	INFO	org.javacs.Javadocs doIndex	Found jar:file:/usr/lib/jvm/java-8-jdk/src.zip!/javax/annotation/processing/Filer.java for javax.annotation.processing.Filer
+2017-12-07	20:34:35	INFO	org.javacs.JavaLanguageServer onDiagnostic	Loading source file /usr/lib/jvm/java-8-jdk/src.zip(javax/annotation/processing/Filer.java)...
+2017-12-07	20:34:35	INFO	org.javacs.JavaTextDocumentService completion	completion at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 6:15
+2017-12-07	20:34:35	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	0 ms	M.java
+2017-12-07	20:34:35	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	5 ms	M.java
+2017-12-07	20:34:35	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:35	INFO	org.javacs.JavaLanguageServer onDiagnostic	Constructing Javadoc information...
+2017-12-07	20:34:35	INFO	org.javacs.JavaTextDocumentService completion	Found 50 items (incomplete) in 106 ms
+2017-12-07	20:34:35	INFO	org.javacs.Javadocs resolveCompletionItem	Resolve javadoc for java.io.FileReader
+2017-12-07	20:34:35	INFO	org.javacs.Javadocs doIndex	Found jar:file:/usr/lib/jvm/java-8-jdk/src.zip!/java/io/FileReader.java for java.io.FileReader
+2017-12-07	20:34:35	INFO	org.javacs.JavaLanguageServer onDiagnostic	Loading source file /usr/lib/jvm/java-8-jdk/src.zip(java/io/FileReader.java)...
+2017-12-07	20:34:35	INFO	org.javacs.JavaLanguageServer onDiagnostic	Constructing Javadoc information...
+2017-12-07	20:34:35	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 6:9
+2017-12-07	20:34:35	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:35	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	2 ms	M.java
+2017-12-07	20:34:35	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:34:36	INFO	org.javacs.JavaTextDocumentService codeAction	codeAction at file:///home/chaitu/Downloads/beginner-html-site-styled-gh-pages/M.java 7:9
+2017-12-07	20:34:36	INFO	org.javacs.JavacHolder lambda$compileFocused$2	PARSE	1 ms	M.java
+2017-12-07	20:34:36	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ENTER	3 ms	M.java
+2017-12-07	20:34:36	INFO	org.javacs.JavacHolder lambda$compileFocused$2	ANALYZE	0 ms	M.java
+2017-12-07	20:35:30	WARNING	org.javacs.JavaTextDocumentService didChange	Ignored change with version 79 <= 79
+2017-12-07	20:35:31	INFO	org.javacs.JavaTextDocumentService doLint	Lint 

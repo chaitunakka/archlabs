@@ -1,0 +1,5 @@
+2017-12-12	22:08:17	INFO	org.javacs.Main connectToNode	Connecting to 55282
+2017-12-12	22:08:17	INFO	org.javacs.Main connectToNode	Connected to parent using socket on port 55282
+2017-12-12	22:08:17	INFO	org.javacs.Main run	Socket closed
+2017-12-12	22:08:17	INFO	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify	Unsupported notification method: $/setTraceNotification
+2017-12-12	22:08:18	INFO	org.javacs.JavaTextDocumentService doLint	Lint file:///home/chaitu/Downloads/THDDao2JDBCTemplateConvertor-master/src/main/java/com/research/JdbcResearchApplication.java

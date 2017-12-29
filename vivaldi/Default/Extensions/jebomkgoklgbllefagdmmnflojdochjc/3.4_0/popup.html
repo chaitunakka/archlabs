@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZapTatkal</title>
+    <script src="external/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="external/material.min.css">
+    <link rel="stylesheet" type="text/css" href="pp.min.css"/>
+    <script src="external/material.min.js"></script>
+</head>
+<body>
+
+
+<div class='popupTitle'>
+    <img src='images/logo.png' id='logo'>
+</div>
+
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+       for="dummy" style="z-index:-1">
+    <input type="checkbox" id="dummy" class="mdl-checkbox__input" value='dummy'>
+    <span class="mdl-checkbox__label">dummy</span>
+</label>
+
+<div class='container'>
+    <div class="zaptatkalOptions">
+        <div class='option'>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+                   for="refresh" id="refreshLabel">
+                <input type="checkbox" id="refresh" class="mdl-checkbox__input" value='refresh'>
+                <span class="mdl-checkbox__label">Auto Refresh</span>
+            </label>
+        </div>
+        <div class='option'>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+                   for="booknow" id="booknowLabel">
+                <input type="checkbox" id="booknow" class="mdl-checkbox__input" value='booknow'>
+                <span class="mdl-checkbox__label">Book Now</span>
+            </label>
+        </div>
+    </div>
+
+    <div id='formsContainer'>
+        <div class="formList">
+            <span class="inputLabelV">Select a form:</span>
+            <select id="formlist">
+            </select>
+        </div>
+        <div id="formDetails">
+            <div>
+                <div class="formdetailsRow">
+                    <b class="infoLabel">From:</b>
+                    <div id="from" class="info"></div>
+                </div>
+                <div class="formdetailsRow">
+                    <b class="infoLabel">To:</b>
+                    <div id="to" class="info"></div>
+                </div>
+            </div>
+            <div style="margin-top: 5px;">
+                <div class="formdetailsRow">
+                    <b class="infoLabel">DoJ:</b>
+                    <div id="doj" class="info"></div>
+                </div>
+                <div class="formdetailsRow">
+                    <b class="infoLabel">Train:</b>
+                    <div id="trainNum" class="info"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="buttonContainer">
+        <button id='editForm'>Details</button>
+        <button id='irctcLink'>Book</button>
+    </div>
+
+    <div id='shareButtonsContainer'>
+
+        <a href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fzaptatkal%2Fjebomkgoklgbllefagdmmnflojdochjc&pubid=ra-5451115a70c19a2b&ct=1&title=ZapTatkal&pco=tbxnj-1.0"
+           target="_blank">
+            <img src="images/share/facebook.png" border="0" alt="Facebook"/>
+        </a>
+
+        <a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fzaptatkal%2Fjebomkgoklgbllefagdmmnflojdochjc&pubid=ra-5451115a70c19a2b&ct=1&title=ZapTatkal&pco=tbxnj-1.0"
+           target="_blank">
+            <img src="images/share/twitter.png" border="0" alt="Twitter"/>
+        </a>
+
+        <a href="https://api.addthis.com/oexchange/0.8/forward/google_plusone_share/offer?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fzaptatkal%2Fjebomkgoklgbllefagdmmnflojdochjc&pubid=ra-5451115a70c19a2b&ct=1&title=ZapTatkal&pco=tbxnj-1.0"
+           target="_blank">
+            <img src="images/share/google_plusone_share.png" border="0" alt="Google+"/>
+        </a>
+
+        <a href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fzaptatkal%2Fjebomkgoklgbllefagdmmnflojdochjc&pubid=ra-5451115a70c19a2b&ct=1&title=ZapTatkal&pco=tbxnj-1.0"
+           target="_blank">
+            <img src="images/share/email.png" border="0" alt="Email"/>
+        </a>
+
+        <a href="https://chrome.google.com/webstore/detail/zaptatkal/jebomkgoklgbllefagdmmnflojdochjc/reviews?hl=en"
+           target="_blank">
+            <img src="images/share/cws.png" border="0" alt="Chrome WebStore"/>
+        </a>
+
+    </div>
+</div>
+
+<img src="images/train.png" id="background"/>
+
+<script src="pp.min.js"></script>
+</body>
+</html>

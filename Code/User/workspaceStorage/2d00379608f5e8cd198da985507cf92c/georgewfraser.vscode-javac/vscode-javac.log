@@ -1,0 +1,2 @@
+2017-12-27	22:59:20	INFO	org.javacs.Main connectToNode	Connecting to 55282
+2017-12-27	22:59:20	INFO	org.javacs.Main connectToNode	Connected to parent using socket on port 55282

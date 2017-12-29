@@ -1,0 +1,6 @@
+[2017-12-26 22:26:03.982] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+	at new <anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:307:319)
+	at module.exports.t.CurrentLineController.<anonymous> (/home/chaitu/.vscode/extensions/eamodio.gitlens-7.1.0/out/extension.js:1:333211)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/chaitu/.vscode/extensions/eamodio.gitlens-7.1.0/node_modules/tslib/tslib.js:102:62)
+	at <anonymous>

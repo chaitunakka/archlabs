@@ -1,0 +1,20 @@
+VirtualBox GUI VM Selector Window 5.2.4 r119758 linux.amd64 (Dec 19 2017 21:26:13) release log
+00:00:00.953707 Log opened 2017-12-29T04:20:05.685520000Z
+00:00:00.953709 Build Type: release
+00:00:00.953711 OS Product: Linux
+00:00:00.953712 OS Release: 4.9.71-1-lts
+00:00:00.953713 OS Version: #1 SMP Wed Dec 20 19:26:23 CET 2017
+00:00:00.953732 DMI Product Name: Aspire V5-573G
+00:00:00.953738 DMI Product Version: TBD by OEM
+00:00:00.953780 Host RAM: 7868MB (7.6GB) total, 7366MB (7.1GB) available
+00:00:00.953784 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.953785 Process ID: 26791
+00:00:00.953786 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.953807 Qt version: 5.10.0
+00:00:00.994336 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.255850 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1x26 x 1365x741
+00:00:01.268468 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:36.148724 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:37.736999 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:47.678303 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:56.772505 GUI: UIMediumEnumerator: Medium-enumeration finished!

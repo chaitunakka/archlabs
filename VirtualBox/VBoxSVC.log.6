@@ -1,0 +1,42 @@
+VirtualBox XPCOM Server 5.2.4 r119758 linux.amd64 (Dec 19 2017 21:26:13) release log
+00:00:00.000256 main     Log opened 2017-12-24T17:34:39.274009000Z
+00:00:00.000259 main     Build Type: release
+00:00:00.000262 main     OS Product: Linux
+00:00:00.000263 main     OS Release: 4.9.71-1-lts
+00:00:00.000264 main     OS Version: #1 SMP Wed Dec 20 19:26:23 CET 2017
+00:00:00.000306 main     DMI Product Name: Aspire V5-573G
+00:00:00.000314 main     DMI Product Version: TBD by OEM
+00:00:00.000382 main     Host RAM: 7868MB (7.6GB) total, 6256MB (6.1GB) available
+00:00:00.000386 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000387 main     Process ID: 16679
+00:00:00.000388 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002844 main     IPC socket path: /tmp/.vbox-chaitu-ipc/ipcd
+00:00:00.110441 nspr-2   VirtualBox: object creation starts
+00:00:00.110524 nspr-2   Home directory: '/home/chaitu/.config/VirtualBox'
+00:00:00.110689 nspr-2   Loading settings file "/home/chaitu/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.125805 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.126424 nspr-2   NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlp4s0
+00:00:00.126435 nspr-2   NAT: resolv.conf: nameserver fe80::1
+00:00:00.126440 nspr-2   NAT: resolv.conf: nameserver 192.168.0.1
+00:00:00.126451 nspr-2   HostDnsMonitor: old information
+00:00:00.126454 nspr-2     no server entries
+00:00:00.126456 nspr-2     no domain set
+00:00:00.126459 nspr-2     no search string entries
+00:00:00.126461 nspr-2   HostDnsMonitor: new information
+00:00:00.126464 nspr-2     server 1: fe80::1%wlp4s0
+00:00:00.126467 nspr-2     server 2: 192.168.0.1
+00:00:00.126469 nspr-2     domain: dlink.router
+00:00:00.126472 nspr-2     search string 1: dlink.router
+00:00:00.126476 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.128743 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.128948 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.129028 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.133204 nspr-2   Loading settings file "/home/chaitu/VirtualBox VMs/ubuntu/ubuntu.vbox" with version "1.16-linux"
+00:00:00.133637 nspr-2   VirtualBox: object created
+00:00:02.172660 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The virtual machine 'ubuntu' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:00:24.628744 nspr-4   Saving settings file "/home/chaitu/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:24.748902 nspr-2   Saving settings file "/home/chaitu/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:30.299933 main     VirtualBox: object deletion starts
+00:00:30.679430 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:35.300379 main     {00007fbb7801f910} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:35.300594 main     VirtualBox: object deleted

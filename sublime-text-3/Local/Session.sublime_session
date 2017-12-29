@@ -1,0 +1,607 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3143,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ima",
+						"image_source"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/chaitu/.config/openbox/rc.xml",
+					"settings":
+					{
+						"buffer_size": 28698,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/chaitu/.Xresources",
+					"settings":
+					{
+						"buffer_size": 3056,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/chaitu/.config/openbox/autostart",
+					"settings":
+					{
+						"buffer_size": 425,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/chaitu/.xprofile",
+					"settings":
+					{
+						"buffer_size": 531,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/chaitu/.zshrc",
+					"settings":
+					{
+						"buffer_size": 4481,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/chaitu/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 2590,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/etc/default/grub",
+					"settings":
+					{
+						"buffer_size": 1813,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/chaitu/.config/polybar/scripts/launch-polybar",
+					"settings":
+					{
+						"buffer_size": 1041,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/chaitu/.config/polybar/master.conf",
+					"settings":
+					{
+						"buffer_size": 1765,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/chaitu/.config/polybar/modules.conf",
+					"settings":
+					{
+						"buffer_size": 12089,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 282.0,
+				"last_filter": "insta",
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Install Package Control"
+					]
+				],
+				"width": 412.0
+			},
+			"console":
+			{
+				"height": 130.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/chaitu/.profile",
+				"/home/chaitu/Downloads/chicago-ascii.sh-master/skyline.sh",
+				"/home/chaitu/Downloads/chicago-ascii.sh-master/flag.sh",
+				"/home/chaitu/.config/neofetch/config",
+				"/home/chaitu/Downloads/history.json",
+				"/home/chaitu/.config/polybar/sessions/openbox-sessionfile",
+				"/home/chaitu/.config/polybar/config",
+				"/home/chaitu/.config/polybar/config1",
+				"/home/chaitu/.config/polybar/master.conf",
+				"/home/chaitu/.config/polybar/launch.sh",
+				"/run/media/chaitu/Local Disk D/Softwares/Linux/Archlabs/Archlabs-User-Home/upgrade-archlabs",
+				"/run/media/chaitu/Local Disk D/Softwares/Linux/Archlabs/Archlabs-User-Home/etc/lsb-release",
+				"/run/media/chaitu/Local Disk D/Softwares/Linux/Archlabs/Archlabs-User-Home/etc/os-release",
+				"/etc/oblogout.conf",
+				"/home/chaitu/bin/config_ui",
+				"/boot/grub/themes/Vimix/theme.txt",
+				"/etc/default/grub",
+				"/home/chaitu/.ssh/id_rsa.pub",
+				"/home/chaitu/.bash_profile",
+				"/etc/profile",
+				"/etc/environment",
+				"/home/chaitu/.config/htop/htoprc",
+				"/usr/share/applications/eclipse.desktop",
+				"/tmp/geary-message-IKNFBZ.txt",
+				"/boot/grub/grub.cfg",
+				"/home/chaitu/.config/dunst/dunstrc",
+				"/home/chaitu/.config/dunst/dunstrc.template",
+				"/home/chaitu/.config/polybar/scripts/compton-toggle.sh",
+				"/home/chaitu/.xinitrc",
+				"/home/chaitu/.config/termite/config",
+				"/usr/share/icons/default/index.theme",
+				"/home/chaitu/.icons/default/index.theme",
+				"/home/chaitu/eclipse-workspace/Spring/JS/index.html"
+			],
+			"find":
+			{
+				"height": 23.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"theme",
+					"neofetch",
+					"color",
+					"theme"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/chaitu/.config/openbox/rc.xml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 28698,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/XML/XML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 962.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/chaitu/.Xresources",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3056,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/chaitu/.config/openbox/autostart",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 425,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/chaitu/.xprofile",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 531,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/chaitu/.zshrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4481,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4481,
+										4481
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 600.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/chaitu/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2590,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/etc/default/grub",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1813,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1813,
+										1813
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 370.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/chaitu/.config/polybar/scripts/launch-polybar",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1041,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1011,
+										1011
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 90.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/home/chaitu/.config/polybar/master.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1765,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										164,
+										164
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/home/chaitu/.config/polybar/modules.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 12089,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 315.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 23.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 42.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

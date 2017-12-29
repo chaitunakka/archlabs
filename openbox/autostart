@@ -1,0 +1,28 @@
+# launch compton
+al-compositor --start &
+
+
+# restore wallpaper
+nitrogen --restore &
+
+# panel
+sleep 1; al-tint2-session &
+sleep 1; al-tint2-session &
+
+# Openbox autostart
+ob-autostart -d &
+
+# PolicyKit authentication
+lxpolkit &
+
+# Required for xfce setting to work
+xfsettingsd &
+
+# Launch conky if session exists
+sleep 2; al-conky-session &
+
+xdg-user-dirs-gtk-update &
+
+sleep 3; xclip &
+sleep 2; pamac-tray &
+sleep 1; plank &

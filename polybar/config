@@ -3,8 +3,8 @@
 ;=====================================================
 
 [section/base]
-include-file = /home/liveuser/.config/polybar/master.conf
-include-file = /home/liveuser/.config/polybar/modules.conf
+include-file = /home/chaitu/.config/polybar/master.conf
+include-file = /home/chaitu/.config/polybar/modules.conf
 
 
 ;=====================================================
@@ -19,7 +19,7 @@ monitor =
 
 modules-left   = jgmenu config workspaces
 modules-center = window_switch clock
-modules-right  = pkg memory temperature coreuse network volume
+modules-right  = memory coreuse network volume battery
 
 ; All available modules (some require configuration in modules.conf)
 ; redshift github jgmenu filesystem mpd wired-network wireless-network battery menu volume-bar bspwm
@@ -27,10 +27,10 @@ modules-right  = pkg memory temperature coreuse network volume
 
 
 ;;;;;; Tray is commented out ;;;;;;;;
-;tray-position = center
-;tray-padding = 10
-;tray-background = ${colors.background}
-;tray-offset-x = 20%
+tray-position = center
+tray-padding = 10
+tray-background = ${colors.background}
+tray-offset-x = 20%
 
 
 

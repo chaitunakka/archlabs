@@ -1,4 +1,3 @@
-# rofi.theme: /usr/share/rofi/themes//dmenu.rasi
 rofi.lines: 7
 rofi.font: Ubuntu Mono Nerd Font 20
 rofi.separator-style: solid

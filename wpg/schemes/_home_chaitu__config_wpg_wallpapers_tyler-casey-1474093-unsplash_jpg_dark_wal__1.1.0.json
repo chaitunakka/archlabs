@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/tyler-casey-1474093-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d121d",
+        "foreground": "#ffd7a8",
+        "cursor": "#ffd7a8"
+    },
+    "colors": {
+        "color0": "#0d121d",
+        "color1": "#d79053",
+        "color2": "#4294a7",
+        "color3": "#4ba8ba",
+        "color4": "#d8d87e",
+        "color5": "#ffb877",
+        "color6": "#ffcc8e",
+        "color7": "#ffd7a8",
+        "color8": "#cca476",
+        "color9": "#d79053",
+        "color10": "#4294a7",
+        "color11": "#4ba8ba",
+        "color12": "#d8d87e",
+        "color13": "#ffb877",
+        "color14": "#ffcc8e",
+        "color15": "#ffd7a8"
+    }
+}

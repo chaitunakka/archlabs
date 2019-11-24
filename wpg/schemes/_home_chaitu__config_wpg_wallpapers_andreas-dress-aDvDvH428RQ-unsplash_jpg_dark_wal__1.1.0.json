@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/andreas-dress-aDvDvH428RQ-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#131b1c",
+        "foreground": "#fee4b8",
+        "cursor": "#fee4b8"
+    },
+    "colors": {
+        "color0": "#131b1c",
+        "color1": "#b85d0e",
+        "color2": "#bb7232",
+        "color3": "#6a9b80",
+        "color4": "#e0a050",
+        "color5": "#0289a2",
+        "color6": "#2dacbb",
+        "color7": "#fee4b8",
+        "color8": "#b5a182",
+        "color9": "#b85d0e",
+        "color10": "#bb7232",
+        "color11": "#6a9b80",
+        "color12": "#e0a050",
+        "color13": "#0289a2",
+        "color14": "#2dacbb",
+        "color15": "#fee4b8"
+    }
+}

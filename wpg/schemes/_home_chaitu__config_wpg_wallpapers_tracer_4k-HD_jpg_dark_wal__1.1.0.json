@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/tracer_4k-HD.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1a0537",
+        "foreground": "#fff480",
+        "cursor": "#fff480"
+    },
+    "colors": {
+        "color0": "#1a0537",
+        "color1": "#bd3519",
+        "color2": "#962825",
+        "color3": "#bf5717",
+        "color4": "#fb6107",
+        "color5": "#c3a217",
+        "color6": "#ffac05",
+        "color7": "#fff480",
+        "color8": "#b7ae5b",
+        "color9": "#bd3519",
+        "color10": "#962825",
+        "color11": "#bf5717",
+        "color12": "#fb6107",
+        "color13": "#c3a217",
+        "color14": "#ffac05",
+        "color15": "#fff480"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/annie-spratt-66164-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0f14",
+        "foreground": "#e1bc9c",
+        "cursor": "#e1bc9c"
+    },
+    "colors": {
+        "color0": "#0c0f14",
+        "color1": "#1d324c",
+        "color2": "#616776",
+        "color3": "#98322b",
+        "color4": "#a14d2d",
+        "color5": "#ab5849",
+        "color6": "#ce5c49",
+        "color7": "#e1bc9c",
+        "color8": "#9d836d",
+        "color9": "#1d324c",
+        "color10": "#676d7d",
+        "color11": "#98322b",
+        "color12": "#a14d2d",
+        "color13": "#ab5849",
+        "color14": "#ce5c49",
+        "color15": "#e1bc9c"
+    }
+}

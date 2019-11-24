@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/pat-kay-1380639-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0e1010",
+        "foreground": "#cad5d7",
+        "cursor": "#cad5d7"
+    },
+    "colors": {
+        "color0": "#0e1010",
+        "color1": "#947165",
+        "color2": "#B98976",
+        "color3": "#7C8082",
+        "color4": "#ABA7A4",
+        "color5": "#D3B0A3",
+        "color6": "#E6C6B9",
+        "color7": "#cad5d7",
+        "color8": "#8d9596",
+        "color9": "#947165",
+        "color10": "#B98976",
+        "color11": "#7C8082",
+        "color12": "#ABA7A4",
+        "color13": "#D3B0A3",
+        "color14": "#E6C6B9",
+        "color15": "#cad5d7"
+    }
+}

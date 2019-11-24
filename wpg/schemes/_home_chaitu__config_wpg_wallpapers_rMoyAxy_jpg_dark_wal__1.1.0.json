@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/rMoyAxy.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#042C52",
+        "foreground": "#e3dad6",
+        "cursor": "#e3dad6"
+    },
+    "colors": {
+        "color0": "#042C52",
+        "color1": "#2C708A",
+        "color2": "#59738A",
+        "color3": "#1B93A3",
+        "color4": "#5E9FAB",
+        "color5": "#6CBCC3",
+        "color6": "#9AA5AC",
+        "color7": "#e3dad6",
+        "color8": "#9e9895",
+        "color9": "#2C708A",
+        "color10": "#59738A",
+        "color11": "#1B93A3",
+        "color12": "#5E9FAB",
+        "color13": "#6CBCC3",
+        "color14": "#9AA5AC",
+        "color15": "#e3dad6"
+    }
+}

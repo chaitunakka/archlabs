@@ -1,13 +1,51 @@
-# rofi.theme: /usr/share/rofi/themes//dmenu.rasi
-rofi.lines: 7
-rofi.font: Ubuntu Mono Nerd Font 20
-rofi.separator-style: solid
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+#		   			Window	  	  Border	 	 Separator
+rofi.color-window: argb:CC25484D, argb:D0435e75, argb:D0435e75
+
+#		  			 Background	  Foreground	 Alt Background Highlight Bg   Highlight Fg
+rofi.color-normal: argb:00435e75, argb:FF9dbeda, argb:00486883, argb:A0362B22, argb:D09dbeda
+rofi.color-active: argb:00435e75, argb:D0734375, argb:00486883, argb:A0362B22, argb:D0734375
+rofi.color-urgent: argb:00435e75, argb:D0b9524e, argb:00486883, argb:A0362B22, argb:D0b9524e
+
+
+rofi.font: Noto Sans 14
 rofi.hide-scrollbar: true
-rofi.fixed-num-lines: true
-rofi.bw: 0
 rofi.width: 100
-rofi.padding: 300
-rofi.color-window: #BB000000, #0A1026, #99634D
-rofi.color-normal: #000A1026, #F9CAA1, #000A1026, #99634D, #0A1026
-rofi.color-active: #0A1026, #F9CAA1, #0A1026, #99634D, #0A1026
-rofi.color-urgent: #0A1026, #AF5C43, #0A1026, #AF5C43, #F9CAA1
+rofi.padding: 400
+rofi.line-margin: 2
+rofi.lines: 4
+rofi.separator-style: none
+rofi.columns: 1
+rofi.bw: 0
+rofi.eh: 2
+rofi.auto-select: false
+rofi.show-icons: true
+rofi.sidebar-mode: true
+!rofi.display-drun:⚌
+
+
+#100% - FF
+#95% - F2
+#90% - E6
+#85% - D9
+#80% - CC
+#75% - BF
+#70% - B3
+#65% - A6
+#60% - 99
+#55% - 8C
+#50% - 80
+#45% - 73
+#40% - 66
+#35% - 59
+#30% - 4D
+#25% - 40
+#20% - 33
+#15% - 26
+#10% - 1A
+#5%  - 0D
+#0%  - 00

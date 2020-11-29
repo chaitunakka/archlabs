@@ -1,51 +1,39 @@
+rofi.modi:                           window,run,drun
+rofi.width:                          50
+rofi.lines:                          50
+rofi.columns:                        1
+rofi.padding:                        160
+rofi.font:                           Noto Sans 16
+rofi.color-normal:                   argb:00000099, #D4d4d4, argb:00000099, argb:4CD75656,#FFFFFF
+rofi.color-urgent:                   argb:00000000, #D75656, argb:00000000, #FFFFFF, #FFFFFF
+rofi.color-active:                   #000000, #6A8554, #000000, argb:4CFFFFFF, #FFF
+rofi.color-window:                   argb:aa2f343f, #FFF, argb:22D75656
+rofi.fullscreen: 		     		true
 
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-rofi.color-enabled: true
-#		   			Window	  	  Border	 	 Separator
-rofi.color-window: argb:CC25484D, argb:D0435e75, argb:D0435e75
-
-#		  			 Background	  Foreground	 Alt Background Highlight Bg   Highlight Fg
-rofi.color-normal: argb:00435e75, argb:FF9dbeda, argb:00486883, argb:A0362B22, argb:D09dbeda
-rofi.color-active: argb:00435e75, argb:D0734375, argb:00486883, argb:A0362B22, argb:D0734375
-rofi.color-urgent: argb:00435e75, argb:D0b9524e, argb:00486883, argb:A0362B22, argb:D0b9524e
-
-
-rofi.font: Noto Sans 14
-rofi.hide-scrollbar: true
-rofi.width: 100
-rofi.padding: 400
-rofi.line-margin: 2
-rofi.lines: 4
-rofi.separator-style: none
-rofi.columns: 1
-rofi.bw: 0
-rofi.eh: 2
-rofi.auto-select: false
-rofi.show-icons: true
-rofi.sidebar-mode: true
-!rofi.display-drun:⚌
+rofi.bw:                             0
+rofi.br: 5
+rofi.location:                       0
 
 
-#100% - FF
-#95% - F2
-#90% - E6
-#85% - D9
-#80% - CC
-#75% - BF
-#70% - B3
-#65% - A6
-#60% - 99
-#55% - 8C
-#50% - 80
-#45% - 73
-#40% - 66
-#35% - 59
-#30% - 4D
-#25% - 40
-#20% - 33
-#15% - 26
-#10% - 1A
-#5%  - 0D
-#0%  - 00
+rofi.fixed-num-lines:                false
+rofi.terminal:                       kitty
+rofi.ssh-client:                     ssh
+rofi.ssh-command:                    {terminal} -e {ssh-client} {host}
+rofi.run-command:                    {cmd}
+rofi.parse-hosts:                    true
+rofi.matching:                       normal
+rofi.separator-style:                solid
+rofi.scrollbar-width:                2
+rofi.kb-mode-next:                   Shift+Right,Control+Tab,Alt+l,bracketright,
+rofi.kb-mode-previous:               Shift+Left,Control+Shift+Tab,Alt+h,bracketleft,
+rofi.kb-row-up:                      Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab,Alt+k
+rofi.kb-row-down:                    Down,Control+n,Alt+j
+rofi.display-window:                 Currently Open
+rofi.display-run:                    Execute
+rofi.display-drun:                   Applications
+rofi.eh:                             1
+rofi.line-margin:                    2
+rofi.line-padding:                   3
+rofi.opacity: 100
+rofi.show-icons: 					 true
+rofi.hide-scrollbar: 				true

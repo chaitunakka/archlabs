@@ -1,0 +1,6 @@
+Command=xdotool getwindowfocus getwindowname
+UseLabel=1
+Text=\ \ 
+UpdatePeriod=750
+Font=Noto Sans Bold 10
+

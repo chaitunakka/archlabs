@@ -8,105 +8,84 @@
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="26"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
-        <value type="int" value="3"/>
-        <value type="int" value="15"/>
-        <value type="int" value="4"/>
-        <value type="int" value="8"/>
-        <value type="int" value="6"/>
-        <value type="int" value="5"/>
         <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="9"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="7"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
       </property>
-      <property name="background-alpha" type="int" value="100"/>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="background-color" type="array">
-        <value type="uint" value="9766"/>
-        <value type="uint" value="4112"/>
-        <value type="uint" value="6168"/>
-        <value type="uint" value="65535"/>
-      </property>
-      <property name="enter-opacity" type="uint" value="100"/>
-      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="85"/>
       <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="mode" type="uint" value="0"/>
-      <property name="nrows" type="uint" value="1"/>
-      <property name="background-image" type="string" value="/home/chaitu/Pictures/s1gtwcrcdgox.jpg"/>
+      <property name="enter-opacity" type="uint" value="85"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.080268"/>
+        <value type="double" value="0.078433"/>
+        <value type="double" value="0.130000"/>
+        <value type="double" value="1.000000"/>
+      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-2" type="string" value="actions">
-      <property name="items" type="array">
-        <value type="string" value="+lock-screen"/>
-        <value type="string" value="-switch-user"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+hibernate"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+suspend"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="+restart"/>
-        <value type="string" value="+shutdown"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-logout-dialog"/>
-      </property>
-      <property name="appearance" type="uint" value="1"/>
-    </property>
-    <property name="plugin-3" type="string" value="tasklist">
-      <property name="flat-buttons" type="bool" value="true"/>
-      <property name="sort-order" type="uint" value="0"/>
-      <property name="grouping" type="uint" value="1"/>
-      <property name="middle-click" type="uint" value="1"/>
-      <property name="show-wireframes" type="bool" value="false"/>
-      <property name="show-handle" type="bool" value="true"/>
-      <property name="show-labels" type="bool" value="false"/>
-      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
-      <property name="include-all-workspaces" type="bool" value="true"/>
-      <property name="show-only-minimized" type="bool" value="false"/>
-    </property>
-    <property name="plugin-15" type="string" value="separator">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-3" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-4" type="string" value="pager">
       <property name="rows" type="uint" value="2"/>
-      <property name="miniature-view" type="bool" value="true"/>
     </property>
-    <property name="plugin-5" type="string" value="clock">
-      <property name="digital-format" type="string" value="%I:%M:%S"/>
-      <property name="mode" type="uint" value="2"/>
-      <property name="show-seconds" type="bool" value="true"/>
-      <property name="tooltip-format" type="string" value=""/>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
-      <property name="names-visible" type="array">
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="names-ordered" type="array">
         <value type="string" value="thunar"/>
-        <value type="string" value="vlc"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="screen actions daemon"/>
         <value type="string" value="uget-gtk"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="task manager"/>
-        <value type="string" value="qbittorrent"/>
-        <value type="string" value="steam"/>
-        <value type="string" value="volumeicon"/>
-        <value type="string" value="pamac-tray"/>
-        <value type="string" value="blueman-applet"/>
         <value type="string" value="clipman"/>
         <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="javaembeddedframe"/>
-        <value type="string" value="transmission"/>
-        <value type="string" value="notes"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="pamac-tray"/>
       </property>
       <property name="names-hidden" type="array">
-      </property>
-      <property name="show-frame" type="bool" value="true"/>
-      <property name="size-max" type="uint" value="24"/>
-    </property>
-    <property name="plugin-1" type="string" value="whiskermenu"/>
-    <property name="plugin-8" type="string" value="netload"/>
-    <property name="clipman" type="empty">
-      <property name="tweaks" type="empty">
-        <property name="never-confirm-history-clear" type="bool" value="false"/>
+        <value type="string" value="xfce4-power-manager"/>
       </property>
     </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance25173;kdeconnect.mpris_04a0fa172c0043c68b741c1cbbc09889;kdeconnect.mpris_060059f58e1e4abd8977d851e63b80ee;kdeconnect.mpris_09e968a8d61a4e6b9384e542247b6ae6;kdeconnect.mpris_0c2072adc8bd41e9b98336569c3b158d;kdeconnect.mpris_1075bede28a64fb6945e814edd3a87a9;kdeconnect.mpris_139ef8c6ffd94c2e813b68d7810e6328;kdeconnect.mpris_13b3e45d985645d1b9f45d3223b697f1;kdeconnect.mpris_13e995f1e1334141add2460b6f5bb903;kdeconnect.mpris_19177bfc1c17414090217bb51a574cb3;kdeconnect.mpris_1bc0b536a5cd4f148c0a660419eccb49;kdeconnect.mpris_20d971eae246470bb6c01274e15e4532;kdeconnect.mpris_21a29f86083e4f0c8b2b007ec42cafe3;kdeconnect.mpris_230ec160deb04ff0a5b82a2c888ab930;kdeconnect.mpris_236c2800a5c34e6aabe6a891e7a4a99c;kdeconnect.mpris_25d786aa250249abb268f67cd1d94044;kdeconnect.mpris_2869abe8a360489483e3cceeec117a9e;kdeconnect.mpris_294decfde6634adeb692f60f86eeb7ec;kdeconnect.mpris_2f3c082872a243d4a8fe0578ac5623c8;kdeconnect.mpris_300516f3b5184daaa788b8ecb5ff492b;kdeconnect.mpris_368300de903d47a58906996d74373d94;kdeconnect.mpris_3ba461399dfc4ef0af3ac152de478f84;kdeconnect.mpris_40518841be5c4657bed9d3c01df183de;kdeconnect.mpris_426ab65cabfe4685a1dde035f6dd84a5;kdeconnect.mpris_5184b586c0dd4680a62585eab5819548;kdeconnect.mpris_576259488c4a4cd498f88e0341342406;kdeconnect.mpris_57dfc8ef54f140bdb6f35d566a18f98a;kdeconnect.mpris_5870f07072f247309a1d3508b79e36fa;kdeconnect.mpris_59fa001647ce4e969b15d972f4f538d8;kdeconnect.mpris_5d5a73fcd7c741b1a45bdb2db285b147;kdeconnect.mpris_62630b4639c645a3ad40d0c8481d6017;kdeconnect.mpris_6de094496abe4f82ab0d268297511548;kdeconnect.mpris_7841b1add63b41fabef5a93643a8cdda;kdeconnect.mpris_7ef7332eaeae41629fc9a9a4a3eebb6d;kdeconnect.mpris_89422616628447cdb1641e431f907850;kdeconnect.mpris_8fba9ecbe057483ab41d034b79a6dc0a;kdeconnect.mpris_9881ca090693423596f071bcd9b436d8;kdeconnect.mpris_9984f320eae243d38a24a42ab1f8fab9;kdeconnect.mpris_a04f96bc4cfb455fb1d3018d2233a359;kdeconnect.mpris_a2e86693589645599f984adb041ba919;kdeconnect.mpris_a46dc16535fb4acc9bc2afab30d67d06;kdeconnect.mpris_ab4dd6f36b4d4a04a108baa27663839b;kdeconnect.mpris_ad3d0a34c1b54133a9eed547ab20ab7d;kdeconnect.mpris_ba39bf2d0df64f57804466f576ed7e27;kdeconnect.mpris_ba9e194b11964efda47438d1fa93af03;kdeconnect.mpris_bb49e0e56bf74b1c8dfebe3330ecc8ee;kdeconnect.mpris_c0db58b5b9f0444cbfce786bbc992ac2;kdeconnect.mpris_c5ea9f30a7104f9d862e89eaff717a86;kdeconnect.mpris_c63bb421c5de4ed2bbab479396bedf36;kdeconnect.mpris_caf84f34554c4c5eac942b238e867189;kdeconnect.mpris_d10503e8a00340c1927c1f14fc409f93;kdeconnect.mpris_d38d4bec0d624421aead4057d4bc95b4;kdeconnect.mpris_d4cc87f6fbdf4192b209d5633d6ad833;kdeconnect.mpris_e53096bb9cde45a188c4a9011afeff52;kdeconnect.mpris_e5adf588162846678b037140a6932f25;kdeconnect.mpris_ea78311ada6d4edba9eae978e44bdbb5;kdeconnect.mpris_ecd9e7aaf5a74e98820254cbf9912dc2;kdeconnect.mpris_ed57b0fbf4214e379bd0270174b61d3e;kdeconnect.mpris_f9940053eb574d759e98a7a3a40539fa;kdeconnect.mpris_fd9e4835d7fc4017ba86a561adfafca8;plasma-browser-integration"/>
+    </property>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-format" type="string" value="%T"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="plugin-2" type="string" value="genmon"/>
+    <property name="plugin-9" type="string" value="netload"/>
   </property>
 </channel>

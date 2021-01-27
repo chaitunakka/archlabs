@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/space.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f1822",
+        "foreground": "#c6d3dc",
+        "cursor": "#c6d3dc"
+    },
+    "colors": {
+        "color0": "#0f1822",
+        "color1": "#e66431",
+        "color2": "#fda65d",
+        "color3": "#3879b7",
+        "color4": "#6984a8",
+        "color5": "#80a1ba",
+        "color6": "#64bdf0",
+        "color7": "#c4d6dd",
+        "color8": "#96a0a5",
+        "color9": "#e66431",
+        "color10": "#fda65d",
+        "color11": "#3879b7",
+        "color12": "#6984a8",
+        "color13": "#80a1ba",
+        "color14": "#64bdf0",
+        "color15": "#c6d3dc"
+    }
+}

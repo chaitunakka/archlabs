@@ -1,0 +1,16 @@
+If not already done, edit /etc/lightdm/lightdm.conf and set greeter-session=lightdm-webkit2-greeter .
+Then edit /etc/lightdm/lightdm-webkit2-greeter.conf and set theme or webkit-theme to litarvan .
+
+cat /etc/X11/xorg.conf.d/30-touchpad.conf
+Section "InputClass"
+        Identifier "MyTouchpad"
+        MatchIsTouchpad "on"
+        Driver "libinput"
+        Option "Tapping" "on"
+        Option "NaturalScrolling" "true"
+		Option "ScrollMethod" "two-finger"
+EndSection
+
+inxi -Gxx | grep compositor // find compositor
+--Display: x11 server: X.org 1.20.10 compositor: compton driver: 
+--compton-tryone-git

@@ -1,0 +1,28 @@
+[global_config]
+  geometry_hinting = True
+  title_use_system_font = False
+  title_font = Fira Code weight=450 10
+[keybindings]
+  close_term = <Primary>q
+[profiles]
+  [[default]]
+    audible_bell = True
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Fira Code Medium 10
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+    use_theme_colors = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]

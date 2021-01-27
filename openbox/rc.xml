@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -39,8 +40,8 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>gorice</name>
-    <titleLayout>NLIMC</titleLayout>
+    <name>Numix</name>
+    <titleLayout>CMINL</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -54,8 +55,8 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Roboto</name>
-      <size>11</size>
+      <name>Noto Sans</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -63,17 +64,17 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Roboto</name>
-      <size>11</size>
+      <name>Noto Sans</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Italic</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Roboto</name>
-      <size>11</size>
+      <name>Noto Sans</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -81,7 +82,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Roboto</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -90,7 +91,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Roboto</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -99,7 +100,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Roboto</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -152,8 +153,8 @@
        cases. -->
   <margins>
     <top>0</top>
-    <bottom>1</bottom>
-    <left>1</left>
+    <bottom>0</bottom>
+    <left>0</left>
     <right>0</right>
   </margins>
   <dock>
@@ -307,12 +308,12 @@
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>xbacklight +10</command>
+        <command>xbacklight -inc 1</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>xbacklight -10</command>
+        <command>xbacklight -dec 1</command>
       </action>
     </keybind>
     <keybind key="Print">
@@ -330,7 +331,7 @@
         <command>exo-open --launch FileManager</command>
       </action>
     </keybind>
-    <keybind key="W-t">
+    <keybind key="A-t">
       <action name="Execute">
         <command>exo-open --launch TerminalEmulator</command>
       </action>
@@ -400,7 +401,7 @@
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
-    <keybind key="W-b">
+    <keybind key="A-b">
       <action name="ToggleDecorations"/>
     </keybind>
     <keybind key="A-r">
@@ -542,14 +543,19 @@
         <width>50%</width>
       </action>
     </keybind>
-    <keybind key="W-z">
+    <keybind key="A-z">
       <action name="Execute">
         <command>rofi -show drun</command>
       </action>
     </keybind>
-    <keybind key="A-F1">
+    <keybind key="W-z">
       <action name="Execute">
         <command>/home/chaitu/bin/rofi-gorice</command>
+      </action>
+    </keybind>
+    <keybind key="W-l">
+      <action name="Execute">
+        <command>light-locker-command -l</command>
       </action>
     </keybind>
   </keyboard>
@@ -827,6 +833,13 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
+    <application class="*">
+      <decor>yes</decor>
+      <!-- <maximized>true</maximized> -->
+      <focus>yes</focus>
+      <layer>normal</layer>
+      <!-- <fullscreen>yes</fullscreen> -->
+    </application>
     <application name="oblogout">
       <position force="no">
         <monitor>1</monitor>

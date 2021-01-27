@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/wallpapersden.com_stray-game-cyberpunk_1920x1080.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1f091d",
+        "foreground": "#83f7f7",
+        "cursor": "#83f7f7"
+    },
+    "colors": {
+        "color0": "#1f091d",
+        "color1": "#773151",
+        "color2": "#7c5753",
+        "color3": "#ac2b17",
+        "color4": "#b35d1e",
+        "color5": "#c75435",
+        "color6": "#e6bf34",
+        "color7": "#83f7f7",
+        "color8": "#5cb1b1",
+        "color9": "#773151",
+        "color10": "#7c5753",
+        "color11": "#ac2b17",
+        "color12": "#b35d1e",
+        "color13": "#c75435",
+        "color14": "#e6bf34",
+        "color15": "#83f7f7"
+    }
+}

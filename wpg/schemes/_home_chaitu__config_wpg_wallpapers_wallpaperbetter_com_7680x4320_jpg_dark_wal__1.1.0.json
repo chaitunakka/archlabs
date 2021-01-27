@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/wallpaperbetter.com_7680x4320.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#151f2b",
+        "foreground": "#92f1cc",
+        "cursor": "#92f1cc"
+    },
+    "colors": {
+        "color0": "#151f2b",
+        "color1": "#626264",
+        "color2": "#0da177",
+        "color3": "#d2595e",
+        "color4": "#34be60",
+        "color5": "#d5c349",
+        "color6": "#b04eb3",
+        "color7": "#92f1cc",
+        "color8": "#68ac91",
+        "color9": "#3d8a74",
+        "color10": "#626264",
+        "color11": "#d2595e",
+        "color12": "#34be60",
+        "color13": "#d5c349",
+        "color14": "#b04eb3",
+        "color15": "#92f1cc"
+    }
+}

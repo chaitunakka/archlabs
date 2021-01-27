@@ -8,10 +8,10 @@ rofi.color-normal:                   argb:00000099, #D4d4d4, argb:00000099, argb
 rofi.color-urgent:                   argb:00000000, #D75656, argb:00000000, #FFFFFF, #FFFFFF
 rofi.color-active:                   #000000, #6A8554, #000000, argb:4CFFFFFF, #FFF
 rofi.color-window:                   argb:aa2f343f, #FFF, argb:22D75656
-rofi.fullscreen: 		     		true
+rofi.fullscreen: 		     		 true
 
 rofi.bw:                             0
-rofi.br: 5
+rofi.br: 							 5
 rofi.location:                       0
 
 
@@ -34,6 +34,6 @@ rofi.display-drun:                   Applications
 rofi.eh:                             1
 rofi.line-margin:                    2
 rofi.line-padding:                   3
-rofi.opacity: 100
+rofi.opacity: 						 100
 rofi.show-icons: 					 true
-rofi.hide-scrollbar: 				true
+rofi.hide-scrollbar: 				 true

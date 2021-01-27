@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/metroid-planet-zebes-locations-1920×1080.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#010101",
+        "foreground": "#8bd3e7",
+        "cursor": "#8bd3e7"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#efa446",
+        "color2": "#1e2597",
+        "color3": "#63249f",
+        "color4": "#1b58aa",
+        "color5": "#4750ca",
+        "color6": "#b746e1",
+        "color7": "#8bd3e7",
+        "color8": "#6092a1",
+        "color9": "#efa446",
+        "color10": "#1e2597",
+        "color11": "#63249f",
+        "color12": "#1b58aa",
+        "color13": "#4750ca",
+        "color14": "#b746e1",
+        "color15": "#8bd3e7"
+    }
+}

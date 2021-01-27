@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/CxNum8rYHOdPg5nm1REE6OK_BLj_ne-Tt0VHe3zAllc.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#130f1a",
+        "foreground": "#d0d0d0",
+        "cursor": "#d0d0d0"
+    },
+    "colors": {
+        "color0": "#130f1a",
+        "color1": "#d15f51",
+        "color2": "#4467ca",
+        "color3": "#6978cc",
+        "color4": "#cf86be",
+        "color5": "#cf9dcf",
+        "color6": "#cdb5b1",
+        "color7": "#d0d0d0",
+        "color8": "#cfb19a",
+        "color9": "#d15f51",
+        "color10": "#4467ca",
+        "color11": "#6978cc",
+        "color12": "#cf86be",
+        "color13": "#cf9dcf",
+        "color14": "#cdb5b1",
+        "color15": "#d0d0d0"
+    }
+}

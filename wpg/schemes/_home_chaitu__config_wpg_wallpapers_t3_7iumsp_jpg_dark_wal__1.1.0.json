@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chaitu/.config/wpg/wallpapers/t3_7iumsp.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#080505",
+        "foreground": "#89bebb",
+        "cursor": "#89bebb"
+    },
+    "colors": {
+        "color0": "#080505",
+        "color1": "#c7582a",
+        "color2": "#137a64",
+        "color3": "#c99b46",
+        "color4": "#075c79",
+        "color5": "#549968",
+        "color6": "#e8ce55",
+        "color7": "#89bebb",
+        "color8": "#5d817f",
+        "color9": "#c7582a",
+        "color10": "#137a64",
+        "color11": "#c99b46",
+        "color12": "#075c79",
+        "color13": "#549968",
+        "color14": "#e8ce55",
+        "color15": "#89bebb"
+    }
+}
